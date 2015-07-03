@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Criteria"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColor="#EEEDF2"
+        android:gravity="center_horizontal"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Program"
+        android:id="@+id/programTV"
+        android:textColor="#EEEDF2"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/textView2"
+
+        android:layout_marginLeft="20dp"
+        android:layout_alignBottom="@+id/spinner1" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner1"
+        android:layout_toEndOf="@+id/programTV"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="30dp"
+        android:layout_alignEnd="@+id/tfET2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Region"
+        android:id="@+id/regionTV"
+        android:textColor="#EEEDF2"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:layout_toStartOf="@+id/textView2"
+        android:layout_below="@+id/programTV"
+        android:layout_alignStart="@+id/programTV"
+        android:layout_alignBottom="@+id/spinner2"
+        android:layout_alignEnd="@+id/programTV" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:layout_toEndOf="@+id/programTV"
+        android:layout_below="@+id/spinner1"
+        android:layout_alignStart="@+id/spinner1"
+        android:layout_alignEnd="@+id/spinner1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Tuition(USD$)"
+        android:id="@+id/tuitionfeeTV"
+        android:layout_below="@+id/spinner2"
+        android:layout_marginTop="30dp"
+        android:layout_alignStart="@id/regionTV"
+        android:textColor="#EEEDF2"
+        android:gravity="center_vertical"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:hint="min"
+        android:layout_height="wrap_content"
+        android:id="@+id/tfET1"
+        android:inputType="number"
+
+        android:layout_alignBaseline="@id/tuitionfeeTV"
+        android:layout_toEndOf="@+id/tuitionfeeTV"
+        android:layout_alignBottom="@+id/tuitionfeeTV" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:hint="min"
+        android:layout_height="wrap_content"
+        android:id="@+id/tfET2"
+        android:inputType="number"
+        android:layout_toEndOf="@+id/tfET1"
+        android:layout_alignBottom="@+id/tfET1"
+        android:layout_alignBaseline="@id/tuitionfeeTV"
+        android:layout_alignEnd="@+id/greET2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:text="GRE"
+        android:id="@+id/greTV"
+        android:textColor="#EEEDF2"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:layout_below="@id/tuitionfeeTV"
+        android:layout_marginTop="10dp"
+        android:layout_alignStart="@+id/tuitionfeeTV"
+        android:layout_alignEnd="@+id/tuitionfeeTV" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:hint="min"
+        android:layout_height="wrap_content"
+        android:id="@+id/greET1"
+        android:inputType="number"
+        android:layout_toEndOf="@+id/tuitionfeeTV"
+        android:layout_alignBaseline="@id/greTV"
+        android:layout_alignBottom="@+id/greTV" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:hint="min"
+        android:layout_height="wrap_content"
+        android:id="@+id/greET2"
+        android:inputType="number"
+        android:layout_toEndOf="@+id/tfET1"
+        android:layout_alignBaseline="@id/greTV"
+        android:layout_alignBottom="@+id/greET1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:text="IELTS"
+        android:id="@+id/ieltsTV"
+        android:textColor="#EEEDF2"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:layout_below="@+id/greTV"
+        android:layout_marginTop="10dp"
+        android:layout_alignStart="@+id/greTV"
+        android:layout_alignEnd="@+id/greTV" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:hint="min"
+        android:layout_height="wrap_content"
+        android:id="@+id/ieltsET1"
+        android:inputType="number"
+        android:layout_toEndOf="@+id/tuitionfeeTV"
+        android:layout_alignBottom="@+id/ieltsTV"
+        android:layout_alignBaseline="@id/ieltsTV"
+        android:layout_toStartOf="@+id/greET2" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:hint="min"
+        android:layout_height="wrap_content"
+        android:id="@+id/ieltsET2"
+        android:inputType="number"
+        android:layout_toEndOf="@+id/tfET1"
+        android:layout_alignBottom="@+id/ieltsET1"
+        android:layout_alignBaseline="@id/ieltsTV"
+        android:layout_alignEnd="@+id/greET2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:text="TOEFL"
+        android:id="@+id/toeflTV"
+        android:textColor="#EEEDF2"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:layout_below="@+id/ieltsTV"
+        android:layout_marginTop="10dp"
+        android:layout_alignStart="@+id/ieltsTV"
+        android:layout_alignEnd="@+id/ieltsTV" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:hint="min"
+        android:layout_height="wrap_content"
+        android:id="@+id/toeflET1"
+        android:inputType="number"
+        android:layout_toEndOf="@+id/tuitionfeeTV"
+        android:layout_toStartOf="@+id/greET2"
+        android:layout_alignBottom="@+id/toeflTV"
+        android:layout_alignBaseline="@id/toeflTV"
+        android:layout_alignStart="@+id/ieltsET1" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:hint="min"
+        android:layout_height="wrap_content"
+        android:id="@+id/toeflET2"
+        android:inputType="number"
+        android:layout_toEndOf="@+id/ieltsET1"
+        android:layout_alignBaseline="@id/toeflTV"
+        android:layout_alignBottom="@+id/toeflET1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:text="GPA"
+        android:id="@+id/gpaTV"
+        android:textColor="#EEEDF2"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:layout_below="@+id/toeflTV"
+        android:layout_marginTop="10dp"
+        android:layout_alignStart="@+id/toeflTV"
+        android:layout_alignEnd="@+id/toeflTV" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:hint="min"
+        android:layout_height="wrap_content"
+        android:id="@+id/gpaET1"
+        android:inputType="number"
+        android:layout_toEndOf="@+id/tuitionfeeTV"
+        android:layout_toStartOf="@+id/greET2"
+        android:layout_alignBottom="@+id/gpaTV"
+        android:layout_alignBaseline="@id/gpaTV"
+        android:layout_alignStart="@+id/toeflET1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="HUNT!"
+        android:id="@+id/huntBTN"
+        android:onClick="huntBTN"
+        android:textColor="@color/my_custom_color"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/gpaET2"
+        android:layout_alignStart="@+id/gpaTV" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:hint="min"
+        android:layout_height="wrap_content"
+        android:id="@+id/gpaET2"
+        android:inputType="number"
+        android:layout_toEndOf="@+id/gpaET1"
+        android:layout_toStartOf="@+id/greET2"
+        android:layout_alignBottom="@+id/gpaET1"
+        android:layout_alignBaseline="@id/gpaTV"
+        android:layout_alignEnd="@+id/toeflET2" />
+
+</RelativeLayout>

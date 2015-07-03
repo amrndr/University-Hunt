@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:id="@+id/countryIV"
+        android:src="@drawable/usa"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+         android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="12dp"
+        android:textSize="20dp"
+        android:id="@+id/countryTV"
+        android:textColor="#EEEDF2"
+        android:text="United States of America"
+        android:layout_alignTop="@+id/countryIV"
+        android:layout_toEndOf="@+id/countryIV"
+        android:textAlignment="center" />
+</RelativeLayout>

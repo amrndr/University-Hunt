@@ -1,0 +1,156 @@
+insert into univtbl values("USA", "MS-ACS", "Massachusetts", " Williams College ", "http://192.168.0.21/images/usa/Wc_1.png", 14720, 317, 7.5, 109, 3.5, "December 13", "413.597.3218,Williams College, 47 Lab Campus Drive, Williamstown, MA 01267", "http://www.williams.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "California", "Stanford University", "http://192.168.0.21/images/usa/Stan_2.png", 14720, 326, 7, 111, 3.82, "January 3", "413.597.3218,Williams College, 47 Lab Campus Drive, Williamstown, MA 01267", "http://www.stanford.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "Pennsylvania", "Swarthmore College", "http://192.168.0.21/images/usa/Swr_3.png", 60671, 324, 7, 107, 3.6, "Fall early decision Nov. 15, Dec. 15  Winter early decision Jan. 1 Feb. 15", "500 college Avenue, Swarthmore PA 19081", "http://www.swarthmore.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "New Jersey", "Princeton University", "http://192.168.0.21/images/usa/Pu_4.png", 55832, 325, 7, 110, 3.5, " December 15", "Office of Graduate Admissions, Clio Hall, Princeton University, Princeton, NJ 08544", "http://www.princeton.edu/main/");
+
+insert into univtbl values("USA", "MS-ACS", "Massachusetts", "Massachusetts Institute of Technology", "http://192.168.0.21/images/usa/Ms_5.png", 59020, 317, 6.5, 100, 3.7, " December 10", "77 Massachusetts Ave, Cambridge, MA 02139", "http://web.mit.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "Connecticut", "Yale University", "http://192.168.0.21/images/usa/Ya_6.png", 61620, 306, 6.5, 102, 3.8, "Fall - January 2", "Office of Graduate Admissions, P.O.Box 208234, new Haven, CT 06520-8234", "http://www.yale.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "Massachusetts", "Harvard University", "http://192.168.0.21/images/usa/Hr_7.png", 59950, 300, 6.5, 80, 3.5, "November 1", "33 Oxfors Street, Cambridge, MA 02138,(617) 495-3294", "http://www.harvard.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "California", "Pomona College", "http://192.168.0.21/images/usa/Pc_8.png", 59730, 310, 7, 103, 3.8, "Winter Sept 30, Fall July 15", "333 N. COLLEGE WAY | CLAREMONT, CA 91711 | (909) 621-8000", "http://www.pomona.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "New York", "United States Military Academy", "http://192.168.0.21/images/usa/Usma_9.png", 61102, 312, 7, 107, 3.67, "Feb 28", "600 Thayer Road,West Point, NY  10996,(845) 938-5760", "http://www.usma.edu/SitePages/Home.aspx");
+
+insert into univtbl values("USA", "MS-ACS", "Massachusetts", "Amherst College", "http://192.168.0.21/images/usa/Am_10.png", 61544, 324, 6.5, 99, 3, "December 15th", "Office of Admission, Amherst College,PO Box 5000,Amherst, MA 01002-5000", "https://www.amherst.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "Pennsylvania", "Haverford College", "http://192.168.0.21/images/usa/Hc_11.png", 61898, 320, 6.5, 100, 3.5, "Early Decision-Nov 15, Regular decision- Jan15", "Office of Admission, 370 Lancaster Avenue,Haverford, PA 19041-1392, Phone: (610)896-1350", "http://www.haverford.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "Pennsylvania", "University of Pennsylvania", "http://192.168.0.21/images/usa/Uop_12.png", 61800, 300, 7, 105, 3.5, "Early descision Nov 1,Regular decision, January 1", "Office of Admission, 370 Lancaster Avenue,Haverford, PA 19041-1392, Phone: (610)896-1350", "http://www.upenn.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "Rhode Island", "Brown University", "http://192.168.0.21/images/usa/Bu_13.png", 60460, 300, 7, 90, 3.5, "Nov 1", "Office of College Admission, Brown University,Box 1876,Providence, RI 02912,Phone 401-863-2378", "http://www.brown.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "Maine", "Bowdoin College", "http://192.168.0.21/images/usa/Bw_14.png", 59900, 300, 7, 100, 3.5, "Nov 15", "255 Maine St, Brunswick, ME 04011", "http://www.bowdoin.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "Connecticut", "Wesleyan University", "http://192.168.0.21/images/usa/Wes_15.png", 62849, 305, 7, 103, 3.6, "Early Decision I Nov 15,Early Decision II Jan 1", "Wesleyan University Office of Admission, The Stewart M. Reid House,70 Wyllys Avenue ,Middletown, CT 06459-0266", "http://www.wesleyan.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "Minnesota", "Carleton College", "http://192.168.0.21/images/usa/Ca_16.png", 60425, 305, 7, 102, 3.3, "Fall Early Decision  Nov. 15, winter Jan 15", "Faculty of Graduate and Postdoctoral Affairs,512 Tory Building, Carleton University,1125 Colonel By Drive, Ottawa, Ontario, Canada,K1S 5B6", "https://www.carleton.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "Indiana", "University of Notre Dame", "http://192.168.0.21/images/usa/Und_17.png", 60117, 300, 7, 80, 3.5, "December 1st", "Notre Dame International ,105 Main Building,Notre Dame Indiana 46556", "http://www.nd.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "New Hampshire", "Dartmouth College", "http://192.168.0.21/images/usa/Dc_18.png", 63279, 305, 7, 100, 3.3, "January 15th", "Dartmouth College,Attn: Computer Science Graduate Admissions,37 Dewey Field Road, Suite 6062, Room 437,Hanover, NH 03755-1419,Phone: (603) 646-2106", "http://dartmouth.edu/");
+
+
+insert into univtbl values("USA", "MS-ACS", "Illinois", "Northwestern University", "http://192.168.0.21/images/usa/Nu_19.png", 63193, 300, 7, 100, 3.3, "January 1", "MacLean Engineering Sciences Center, Hanover, NH 03755", "http://www.northwestern.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "California", "California Institute of Technology", "http://192.168.0.21/images/usa/Ciu_20.png", 58755, 300, 7, 100, 3.5, "Dec 15", "California Institute of Technology, Mail Code 230-87,Pasadena, CA 91125", "http://www.caltech.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "New York", "Columbia University", "http://192.168.0.21/images/usa/Cu_21.png", 64144, 305, 7.5, 104, 3.6, "Jan 15", "212 Hamilton Hall, Mail Code 2807, 1130 Amsterdam Ave, Manhattan, NY 10027", "http://www.columbia.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "North Carolina", "Davidson College", "http://192.168.0.21/images/usa/Dvd_22.png", 57458, 300, 7.5, 100, 3.5, "Jan 2", "405 N Main St, Davidson, NC 28035", "http://www.davidson.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "North Carolina", "Duke University", "http://192.168.0.21/images/usa/Duk_23.png", 61748, 325, 7.5, 110, 3.5, "Jan 15", "2138 Campus Drive, Box 90586, Durham, NC 27708, Phone: (919) 684-3214", "http://duke.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "Illinois", "University of Chicago", "http://192.168.0.21/images/usa/Uoc_24.png", 64988, 300, 7, 90, 3.5, "Jan 9", "1101 E 58th St, Chicago, IL 60637", "http://www.uchicago.edu/");
+
+insert into univtbl values("USA", "MS-ACS", "Massachusetts", "Tufts University", "http://192.168.0.21/images/usa/Tuf_25.png", 61000, 300, 6, 79, 3.5, "Nov 1", "419 Boston Ave, Medford, MA 02155?", "http://www.tufts.edu/");
+
+
+
+insert into univtbl values("UK", "MS-ACS", "England", "University of Birmingham",  
+"http://192.168.0.21/images/uk/Uob_1.png", 21000, 0, 5.5, 0, 3.5, "Feb 28", "Edgbaston,  
+Birmingham, West Midlands B15 2TT, United Kingdom",  
+"http://www.birmingham.ac.uk/index.aspx");
+
+insert into univtbl values("UK", "MS-ACS", "England", "University of Southampton",  
+"http://192.168.0.21/images/uk/Us_2.png", 19000, 0, 5.5, 0, 3.3, "Jan 15", "University of  
+Southampton, University Road,Southampton SO17 1BJ","http://www.southampton.ac.uk/");
+
+insert into univtbl values("UK", "MS-ACS", "England", "King's College London",  
+"http://192.168.0.21/images/uk/Ki_3.png", 24000, 0, 6, 0, 3.5, "Jan 10", "Strand, London  
+WC2R 2LS, United Kingdom","http://www.kcl.ac.uk/index.aspx");
+
+insert into univtbl values("UK", "MS-ACS", "England", " London School of Economics",  
+"http://192.168.0.21/images/uk/Lse_4.png", 17000, 0, 5.5, 0, 3.3, "Dec 4", "Houghton St,  
+London WC2A 2AE, United Kingdom","www.lse.ac.uk/");
+
+insert into univtbl values("UK", "MS-ACS", "England", "University College London",  
+"http://192.168.0.21/images/uk/Ucl_5.png", 18000, 0, 6.5, 0, 3.6, "Feb 2", "Gower St, London WC1E 6BT, United Kingdom", "www.ucl.ac.uk");
+
+
+
+insert into univtbl values("UK", "MS-ACS", "England", "University of Manchester",  
+"http://192.168.0.21/images/uk/Ma_6.png", 16000, 0, 5.5, 0, 3.4, "Nov 4", "The University of  
+Manchester,Oxford Road,Manchester,M13 9PL","http://www.manchester.ac.uk/");
+
+insert into univtbl values("UK", "MS-ACS", "Scotland", "University of Edinburgh",  
+"http://192.168.0.21/images/uk/Ue_7.png", 28000, 0, 6, 0, 3.3, "Dec 23", "Old College, South  
+Bridge, Edinburgh EH8 9YL, United Kingdom","www.ed.ac.uk/");
+
+insert into univtbl values("UK", "MS-ACS", "England", "Imperial College London",  
+"http://192.168.0.21/images/uk/IC_8.png", 24000, 0, 6.5, 0, 3.5, "Nov 19", "London SW7 2AZ,  
+United Kingdom","www3.imperial.ac.uk");
+
+
+insert into univtbl values("UK", "MS-ACS", "England", "University of Cambridge",  
+"http://192.168.0.21/images/uk/Uc_9.png", 23300, 0, 6.5, 0, 3.6, "Jan 15", "The Old Schools,  
+Trinity Ln, Cambridge CB2 1TN, United Kingdom","www.cam.ac.uk");
+
+
+
+insert into univtbl values("UK", "MS-ACS", "England", "University of Oxford",  
+"http://192.168.0.21/images/uk/Uo_10.png", 21400, 0, 6, 0, 3.7, "Feb 8", "University  
+Offices, Wellington Square, Oxford OX1 2JD, United Kingdom","www.ox.ac.uk");
+
+
+
+insert into univtbl values("CANADA", "MS-ACS", "Alberta", "University of Alberta", "http://192.168.0.21/images/ca/Uoa_1.png", 19654, 0, 6.5, 0, 3, "November 1", "University of Alberta,ComputerScience Building,116 St. and 85 Ave,Edmonton, Alberta","http://www.ualberta.ca/");
+
+insert into univtbl values("CANADA", "MS-ACS", "Ontario", "University of Toronto", "http://192.168.0.21/images/ca/Uot_2.png", 11160, 0, 6.5, 0, 3, "November 15", "University of Toronto,172 St. George Street,Toronto, Ontario,M5R 0A3","http://www.utoronto.ca/");
+
+insert into univtbl values("CANADA", "MS-ACS", "Quebec", "McGill University", "http://192.168.0.21/images/ca/Mg_3.png", 15680, 0, 6, 0, 3.3, "December 1", "McGill University,3415 McTavish Street,Room MS 13,Montreal, Quebec,Canada, H3A 0C8","http://www.mcgill.ca/");
+
+insert into univtbl values("CANADA", "MS-ACS", "British Columbia", "University of British Columbia", "http://192.168.0.21/images/ca/Ubc_4.png", 17245, 0, 6.5, 0, 3, "December 15", "2329 W Mall, Vancouver, BC V6T 1Z4, Canada","http://www.ubc.ca/");
+
+insert into univtbl values("CANADA", "MS-ACS", "Labrador", "memorial University", "http://192.168.0.21/images/ca/Mu_5.png", 18257, 0, 6.5, 0, 3.3, "November 10", "230 Elizabeth Ave, St John's, NL A1B 3X9, Canada","http://www.mun.ca/");
+
+
+insert into univtbl values("CANADA", "MS-ACS", "New Brunswick", "University of New Brunswick", "http://192.168.0.21/images/ca/Unb_6.png", 12670, 0, 6, 0, 3.5, "December 5", "3 Bailey Dr, Fredericton, NB E3B 5A3, Canada","http://www.unb.ca/");
+
+insert into univtbl values("CANADA", "MS-ACS", "Nova Scotia", "University of Kings College", "http://192.168.0.21/images/ca/Ukc_7.png", 12563, 0, 6.5, 0, 3.3, "December 15", "6350 Coburg Rd, Halifax, NS B3H 2A1, Canada","http://www.ukings.ca/");
+
+
+insert into univtbl values("CANADA", "MS-ACS", "North West Terr", "Aurora College", "http://192.168.0.21/images/ca/Ar_8.png", 13623, 0, 6, 0, 3.5, "December 16", "87 Gwich'in Rd, Inuvik, NT X0E 0T0, Canada","http://www.auroracollege.nt.ca/");
+
+
+insert into univtbl values("CANADA", "MS-ACS", "Prince Edward Island", "University of Prince Edward Island", "http://192.168.0.21/images/ca/Upei_9.png", 17351, 0, 6, 0, 3.3, "December 10", "550 University Ave, Charlottetown, PE C1A 4P3, Canada","http://home.upei.ca/");
+
+
+insert into univtbl values("CANADA", "MS-ACS", "Saskatchewen", "University of Saskatchewen", "http://192.168.0.21/images/ca/Uos_10.png", 19386, 0, 6.5, 0, 3.5, "November 15", "College of Graduate Studies and Research,University of Saskatchewan,Room C180 105 Administration Place,Saskatoon, SK  S7N 5A2,Canada","http://www.usask.ca/");
+
+
+
+insert into univtbl values("CANADA", "MS-ACS", "Manitoba", "The University of Winnipeg", "http://192.168.0.21/images/ca/Uow_11.png", 18932, 0, 6.5, 0, 3, "December 20", "515 Portage Ave, Winnipeg, MB R3B 2E9, Canada","http://www.uwinnipeg.ca/");
+
+insert into univtbl values("AUSTRALIA", "MS-ACS", "New South Wales", "The Australian National University", "http://192.168.0.21/images/aus/Anu_1.png", 24782, 0, 5.5, 85, 2.8, "January 1", "Canberra ACT 0200, Australia,+61 2 6125 5111","http://www.anu.edu.au/");
+
+
+
+insert into univtbl values("AUSTRALIA", "MS-ACS", "New South Wales", "The University of Sydney", "http://192.168.0.21/images/aus/Us_2.png", 29642, 0, 6.5, 90, 2.7, "November 17", "New South Wales 2006, Australia,+61 2 9351 2222","http://sydney.edu.au/");
+
+insert into univtbl values("AUSTRALIA", "MS-ACS", "New South Wales", "The University of New South Wales", "http://192.168.0.21/images/aus/Unsw_3.png", 31268, 0, 6, 82, 2.7, "November 15", "Sydney NSW 2052, Australia, +61 2 9385 1000","http://www.unsw.edu.au/");
+
+insert into univtbl values("AUSTRALIA", "MS-ACS", "Victoria", "The University of Melbourne", "http://192.168.0.21/images/aus/Um_4.png", 35936, 0, 6, 90, 3, "November 15", "Office of Admissions Richard Berry Building University of Melbourne VIC 3010. AUSTRALIA,+61 3 9035 5511","http://www.unimelb.edu.au/");
+
+
+insert into univtbl values("AUSTRALIA", "MS-ACS", "Victoria", "Monash University", "http://192.168.0.21/images/aus/Mon_5.png", 28885, 0, 6.5, 80, 3, "November 15", "Central Admissions Monash University PO Box 197 Caulfield East VIC 3156 Australia,+61 3 9903 2777","http://www.monash.edu.au/");
+
+
+insert into univtbl values("AUSTRALIA", "MS-ACS", " Queensland", "The University of Queensland", "http://192.168.0.21/images/aus/Uq_6.png", 24382, 0, 6.5, 85, 2.8, "October 31", "St Lucia QLD 4072, Australia,+61 7 3365 1111","http://www.uq.edu.au/");
+
+
+insert into univtbl values("AUSTRALIA", "MS-ACS", "Western Australia", "The University of Western Australia", "http://192.168.0.21/images/aus/Uwa_7.png", 20266, 0, 7.5, 70, 3, "November 20", "35 Stirling Hwy, Crawley WA 6009, Australia,+61 8 6488 6000","http://www.uwa.edu.au/");
+
+
+
+insert into univtbl values("AUSTRALIA", "MS-ACS", "South Australia", "The University of Adelaide", "http://192.168.0.21/images/aus/Ua_8.png", 20266, 0, 6.5, 70, 3, "December 1", "Adelaide SA 5005, Australia,+61 8 8313 5208","http://www.adelaide.edu.au/");
+
+
+insert into univtbl values("AUSTRALIA", "MS-ACS", "Victoria", "Deakin University", "http://192.168.0.21/images/aus/Dk_9.png", 21448, 0, 6.5, 75, 3, "November 20", "221 Burwood Hwy, Burwood VIC 3125, Australia,+61 3 9244 6100","http://www.deakin.edu.au/");
+
+
+insert into univtbl values("AUSTRALIA", "MS-ACS", "Tasmania", " University of Tasmania", "http://192.168.0.21/images/aus/Uat_10.png", 21448, 0, 6, 75, 3, "November 17", "Churchill Avenue, Sandy Bay, Hobart TAS 7005, Australia","http://www.utas.edu.au/");

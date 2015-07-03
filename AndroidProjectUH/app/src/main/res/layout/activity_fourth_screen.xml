@@ -1,0 +1,327 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.s519426.androidprojectuh.FourthScreen"
+    android:id="@+id/four">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/nameTV"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#EEEDF2"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Program"
+        android:id="@+id/programTV"
+        android:textSize="20dp"
+        android:layout_below="@+id/nameTV"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#EEEDF2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Country"
+        android:id="@+id/countryTV"
+        android:layout_below="@+id/programTV"
+        android:layout_marginTop="10dp"
+        android:layout_alignStart="@+id/programTV"
+        android:textColor="#EEEDF2"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/programTV1"
+        android:layout_toEndOf="@+id/programTV"
+        android:layout_alignBottom="@+id/programTV"
+        android:textColor="#EEEDF2"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/countryTV1"
+        android:layout_toEndOf="@+id/countryTV"
+        android:layout_above="@+id/textView2"
+        android:textColor="#EEEDF2"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Region"
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:layout_below="@+id/countryTV"
+        android:layout_marginTop="10dp"
+        android:layout_toStartOf="@+id/countryTV1" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/regionTV1"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:textColor="#EEEDF2"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="GRE"
+        android:id="@+id/greTV"
+        android:textSize="20dp"
+        android:layout_toStartOf="@+id/regionTV1"
+        android:layout_marginTop="10dp"
+        android:textColor="#EEEDF2"
+        android:layout_below="@+id/textView8" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/toeflTV"
+        android:textSize="20dp"
+        android:text="TOEFL"
+        android:layout_marginTop="10dp"
+        android:textColor="#EEEDF2"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/greTV" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/ieltsTV"
+        android:textSize="20dp"
+        android:text="IELTS"
+        android:layout_toStartOf="@+id/toeflTV1"
+        android:layout_below="@+id/toeflTV"
+        android:layout_marginTop="10dp"
+        android:textColor="#EEEDF2"
+        android:layout_alignStart="@+id/gpaTV" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ieltsET"
+        android:layout_toEndOf="@+id/toeflTV"
+        android:layout_alignBaseline="@+id/gpaTV1"
+        android:layout_alignBottom="@+id/gpaTV1" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Region"
+        android:id="@+id/regionTV"
+        android:textSize="20dp"
+        android:layout_toStartOf="@+id/regionTV1"
+        android:textColor="#EEEDF2"
+        android:layout_alignTop="@+id/textView2" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Admission Requirements:"
+        android:id="@+id/textView8"
+        android:textSize="20dp"
+        android:layout_toStartOf="@+id/nameTV"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/greTV"
+        android:textColor="#EEEDF2"
+        android:layout_alignEnd="@+id/regionTV1"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/greTV1"
+        android:layout_toEndOf="@+id/greTV"
+        android:layout_alignBottom="@+id/greTV"
+        android:textColor="#EEEDF2"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/gpaTV"
+        android:textSize="20dp"
+        android:layout_toStartOf="@+id/ieltsET"
+        android:text="GPA"
+        android:layout_marginTop="10dp"
+        android:textColor="#EEEDF2"
+        android:layout_below="@+id/ieltsTV" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/gpaTV1"
+        android:layout_toEndOf="@+id/gpaTV"
+        android:layout_alignBottom="@+id/gpaTV"
+        android:textColor="#EEEDF2"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tuitionTV"
+        android:textSize="20dp"
+        android:layout_toStartOf="@+id/ieltsET"
+        android:text="Tuition Fee (USD $)"
+        android:layout_below="@+id/gpaTV"
+        android:layout_marginTop="10dp"
+        android:textColor="#EEEDF2"
+        android:layout_alignEnd="@+id/gpaTV" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tuitionTV1"
+        android:layout_toEndOf="@+id/tuitionTV"
+        android:layout_alignBottom="@+id/tuitionTV"
+        android:textColor="#EEEDF2"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Application Deadline:"
+        android:id="@+id/textView11"
+        android:textSize="20dp"
+        android:layout_toStartOf="@+id/regionTV1"
+        android:layout_below="@+id/tuitionTV"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="20dp"
+        android:textColor="#EEEDF2"
+        android:layout_alignEnd="@+id/nameTV"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/deadlineTV"
+        android:layout_below="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_alignEnd="@+id/tuitionTV1"
+        android:layout_marginTop="10dp"
+        android:textColor="#EEEDF2"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Contact:"
+        android:id="@+id/textView13"
+        android:textSize="20dp"
+        android:layout_toStartOf="@+id/tuitionTV1"
+        android:layout_below="@+id/deadlineTV"
+        android:layout_marginTop="20dp"
+        android:textColor="#EEEDF2"
+        android:layout_alignStart="@+id/deadlineTV"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/contactTV"
+        android:layout_below="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_marginTop="10dp"
+        android:layout_alignEnd="@+id/deadlineTV"
+        android:textColor="#EEEDF2"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Website:"
+        android:id="@+id/textView15"
+        android:textSize="20dp"
+        android:layout_toStartOf="@+id/tuitionTV1"
+        android:layout_below="@+id/contactTV"
+        android:layout_marginTop="20dp"
+        android:layout_alignStart="@+id/contactTV"
+        android:textColor="#EEEDF2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/websiteTV"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="10dp"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_alignEnd="@+id/contactTV"
+        android:textColor="#EEEDF2"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/toeflTV1"
+        android:layout_toEndOf="@+id/greTV"
+        android:layout_above="@+id/ieltsTV"
+        android:textColor="#EEEDF2"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ieltsTV1"
+        android:layout_toEndOf="@+id/toeflTV"
+        android:layout_above="@+id/gpaTV"
+        android:textColor="#EEEDF2"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
+</ScrollView>
